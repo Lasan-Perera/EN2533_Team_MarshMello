@@ -7,7 +7,7 @@ Our robot was developed to complete multiple challenges announced two months bef
 ## 🤖 Robot
 
 ## 🔧 Robot Hardware Specifications
-- **Max Dimensions**: 250mm × 250mm  
+- **Max Dimensions**: 200mm × 190mm  
 - **Power Supply**: 4 18650 Li-ion Battries
 - **Components**:
   - Arduino Mega mini Development board x1
@@ -80,7 +80,8 @@ The robot operates on a **Grid Navigation System** driven by a finite state mach
 - **Task 5**: The Wall of Whispers & Pendulum of Doom 
 - **Task 6**: The Line of Destiny & The Ring of Triumph (Shooting Task)
 
-[![PDF](https://img.shields.io/badge/PDF-Download-red?style=flat&logo=adobe&logoColor=white)]([path/to/your-file.pdf](https://github.com/user-attachments/files/24347659/Robot_Design_Task_2025_251226_191908.pdf)) **Project Documentation**
+**Project Documentation**
+[![PDF](https://img.shields.io/badge/PDF-Download-red?style=flat&logo=adobe&logoColor=white)]([path/to/your-file.pdf](https://github.com/user-attachments/files/24347659/Robot_Design_Task_2025_251226_191908.pdf)) 
 
 
 ## 🏟️ Arena
@@ -92,7 +93,7 @@ The robot operates on a **Grid Navigation System** driven by a finite state mach
 
 <img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/961e3777-fb7b-4ed8-8dc9-ac8582a0b2fc" />
 
-## 👥 Group Members
+## 👥 Team Members
 | Name | Index Number |
 |------|-------------|
 | Lasan Sanjula Perera | 230487D |
