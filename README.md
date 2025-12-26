@@ -50,11 +50,13 @@ Our robot was developed to complete multiple challenges announced two months bef
 
 
 ## ⚙️ Mechanisms and Algorithms
-### Custom Motor Brackets, Wheel Rims, SHARP IR Brackets
+### <u>Custom Motor Brackets, Wheel Rims, SHARP IR Brackets</u>
 <img src="https://github.com/user-attachments/assets/89c14042-1c5d-4e6c-a0d6-823893c8174a" width="200" height="200" />
 <img src="https://github.com/user-attachments/assets/22e6be7a-fbba-4adf-b9f5-4d7d07c4fee7" width="200" height="200" />
 
-### Balls and Box Pickup Mechanism
+---
+
+### <u>Balls and Box Pickup Mechanism</u>
 
 From the beginning, we decided to use an arm mechanism to pick up balls and boxes from the side. This required precise control of the robot. We planned to store the collected balls in a container located at the top of the robot. The container had to be positioned at an appropriate height so gravity could be used to feed the balls into the ball-sending mechanism, which was a major design challenge.
 
@@ -66,35 +68,43 @@ However, the initial grip was not strong enough to hold boxes securely. To impro
 
 To overcome this, we implemented a control solution: after gripping the ball and raising the arm, the gripper briefly opens and closes again. This allows the ball to move closer to the color sensor. This approach worked successfully.
 
-<img width="250" height="360" alt="image" src="https://github.com/user-attachments/assets/5aa93e9d-a1d1-4257-a950-2cb823abd457" />
+<img src="https://github.com/user-attachments/assets/5aa93e9d-a1d1-4257-a950-2cb823abd457" width="250" height="360" />
 
-### Balls Storing Mechanism
+---
+
+### <u>Balls Storing Mechanism</u>
+
 The container had to be positioned at a suitable height so gravity could feed the balls into the ball-sending mechanism. The main challenge was designing a container within limited space that could store four balls while ensuring they would not block each other during release.
 
 Later, I discovered that the original container design was approximately 5 mm lower than the required height. To fix this, I added a 5 mm thick 3D-printed spacer block in the middle of the structure.
 
-<img width="300" height="220" alt="image" src="https://github.com/user-attachments/assets/efb444ee-13a7-4946-92c8-4741c1c92155" />
+<img src="https://github.com/user-attachments/assets/efb444ee-13a7-4946-92c8-4741c1c92155" width="300" height="220" />
 
-### Balls Shooting Mechanism
+---
+
+### <u>Balls Shooting Mechanism</u>
 
 The ball sender needed to launch the balls through a given hoop. We used DC motors rotating at high speed, with the ball placed between them. To achieve sufficient grip, we used two toy truck wheels attached to the motors.
 
-Finding the correct distance between the motors required several design iterations. Another major issue was ensuring that balls were sent one at a time. If two balls entered the mechanism simultaneously, the second ball would not travel the required distance. To solve this, I designed a blocking mechanism that prevents the next ball from entering while one ball is being launched.
+Finding the correct distance between the motors required several design iterations. Another major issue was ensuring that balls were sent one at a time. If two balls entered the mechanism simultaneously, the second ball would not travel the required distance.
 
-Initially, we attempted to control the motors using relays, but this failed due to the high startup current. When the motors started, the relay would switch off, causing an endless on-off loop without the motors running properly. To resolve this issue, we replaced the relays with a motor driver, which worked reliably.
+To solve this, I designed a blocking mechanism that prevents the next ball from entering while one ball is being launched.
 
-### Grid Solving Algorithm
+Initially, we attempted to control the motors using relays, but this failed due to the high startup current. When the motors started, the relay would switch off, causing an endless on-off loop without proper motor operation. To resolve this issue, we replaced the relays with a motor driver, which worked reliably.
+
+---
+
+### <u>Grid Solving Algorithm</u>
+
 The robot operates on a **Grid Navigation System** driven by a finite state machine.
 
-- **Mapping**: Maintains an internal 8x8 coordinate grid that updates in real-time as sensors detect walls or boxes.  
-- **Pathfinding**: Uses **Breadth-First Search (BFS)** to calculate the shortest path to any target cell. The path is dynamically recalculated after every step to adapt to newly discovered obstacles.  
-- **Mission Logic**: A high-level **State Machine** controls the mission lifecycle:  
-  - **Search**: Executes a "Snake Pattern" sweep of the grid to locate boxes.  
-  - **Pickup**: When a box is found, uses a **Multi-Angle Selector** to find a valid approach vector (strict X-axis west/east approach) respecting the robotic arm's geometry.  
-  - **Transport**: Navigates back to the sanctuary zone using the same BFS algorithm to drop the payload.  
-  - **Avoidance**: Automatically marks blocked paths and inaccessible boxes to prevent deadlocks or infinite loops.
-
-
+- **Mapping**: Maintains an internal 8×8 coordinate grid updated in real time using wall and object detection.
+- **Pathfinding**: Uses **Breadth-First Search (BFS)** to compute the shortest path to any target cell. The path is recalculated after each movement to adapt to new obstacles.
+- **Mission Logic**: Controlled by a high-level **State Machine**:
+  - **Search**: Snake-pattern sweep of the grid to locate boxes
+  - **Pickup**: Multi-angle selector enforcing strict X-axis approach based on arm geometry
+  - **Transport**: BFS-based navigation back to the sanctuary zone
+  - **Avoidance**: Marks inaccessible paths and targets to prevent deadlocks
 
 ## 🚩 Competition Tasks
 - **Task 1**: The Labyrinth of Shadows (Grid Solving) 
