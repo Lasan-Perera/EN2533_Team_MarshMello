@@ -51,24 +51,25 @@ Our robot was developed to complete multiple challenges announced two months bef
 ## ⚙️ Mechanisms and Algorithms
 
 ### Balls and Box Pickup Mechanism
-The gripper mechanism is designed for efficient box manipulation. It uses two servo motors—one for vertical lifting and one for gripping. The lifting action prevents box sliding and collisions on uneven terrain.  
 
-A color sensor detects line color, while a Time-of-Flight sensor tower (three sensors) measures box height, distance to boxes, and portal status. This sensor integration ensures accurate handling and navigation.
 
 ### Balls Storing Mechanism
-The gripper mechanism is designed for efficient box manipulation. It uses two servo motors—one for vertical lifting and one for gripping. The lifting action prevents box sliding and collisions on uneven terrain.  
 
-A color sensor detects line color, while a Time-of-Flight sensor tower (three sensors) measures box height, distance to boxes, and portal status. This sensor integration ensures accurate handling and navigation.
 
 ### Balls Shooting Mechanism
-The coin dropper uses a servo-driven rotating holder that releases a coin when aligned with a hole in the base.  
 
-In the final task, the robot detects a black cross on uneven terrain and drops the coin precisely at the marked location, ensuring reliable placement.
 
 ### Grid Solving Algorithm
-The coin dropper uses a servo-driven rotating holder that releases a coin when aligned with a hole in the base.  
+The robot operates on a **Grid Navigation System** driven by a finite state machine.
 
-In the final task, the robot detects a black cross on uneven terrain and drops the coin precisely at the marked location, ensuring reliable placement.
+- **Mapping**: Maintains an internal 8x8 coordinate grid that updates in real-time as sensors detect walls or boxes.  
+- **Pathfinding**: Uses **Breadth-First Search (BFS)** to calculate the shortest path to any target cell. The path is dynamically recalculated after every step to adapt to newly discovered obstacles.  
+- **Mission Logic**: A high-level **State Machine** controls the mission lifecycle:  
+  - **Search**: Executes a "Snake Pattern" sweep of the grid to locate boxes.  
+  - **Pickup**: When a box is found, uses a **Multi-Angle Selector** to find a valid approach vector (strict X-axis west/east approach) respecting the robotic arm's geometry.  
+  - **Transport**: Navigates back to the sanctuary zone using the same BFS algorithm to drop the payload.  
+  - **Avoidance**: Automatically marks blocked paths and inaccessible boxes to prevent deadlocks or infinite loops.
+
 
 
 ## 🚩 Competition Tasks
@@ -87,31 +88,16 @@ In the final task, the robot detects a black cross on uneven terrain and drops t
 
 
 ## 🏆 Achievements
-- Successfully completed **6 out of 8 tasks** within the time limit  
+- Successfully completed **5 out of 6 tasks** within the time limit  
 
-
-## 💡 Testing Issues & Innovative Fixes
-
-### Reverse Line Following Challenge
-**Problem:**  
-Encoder-based reverse navigation was inaccurate due to motor mismatch. The forward-mounted IR array also caused delayed feedback during reverse motion.
-
-**Solution:**  
-Two IR arrays were used—one at the front and one at the rear—allowing accurate and immediate feedback in both directions while reducing software complexity.
-
-### IR Sensor Isolation Challenge
-**Problem:**  
-IR sensor interference occurred when detecting black lines on white backgrounds due to reflected IR rays.
-
-**Solution:**  
-A custom SolidWorks-designed cover was used to isolate each IR receiver, ensuring accurate perpendicular reflection detection.
+<img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/961e3777-fb7b-4ed8-8dc9-ac8582a0b2fc" />
 
 ## 👥 Group Members
-| Name | Index Number | Email |
-|------|-------------|-------|
-| Balasooriya B A P I | 220054N | balasooriyabapi.22@uom.lk |
-| Liyanage D L B B | 220362G | banuka2002liyanage@gmail.com |
-| Pathirana P D R O | 220448C | oshadha1619@gmail.com |
-| Fernando A R D | 220161N | rusirufernando513@gmail.com |
-| Dineshara M C | 220128V | chandupadineshara@gmail.com |
+| Name | Index Number |
+|------|-------------|
+| Lasan Sanjula Perera | 230487D |
+| Hasith Nettikumara | 230436X |
+| Kavija Karunarathna | 230322U |
+| Hiruna Kariyawasam | 230318M |
+| Rusiru Anupama | 230536E |
 
