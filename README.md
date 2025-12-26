@@ -64,23 +64,22 @@ In the final task, the robot detects a black cross on uneven terrain and drops t
 
 
 ## 🚩 Competition Tasks
-- **Task 1**: Line navigation and binary code identification  
-- **Task 2**: Maze navigation and box manipulation  
-- **Task 3**: Color-based line following  
-- **Task 4**: Dashed line navigation  
-- **Task 5**: Portal navigation with timed opening  
-- **Task 6**: Box arrangement  
-- **Task 7**: Hidden task and chamber insertion  
-- **Task 8**: Coin drop on uneven terrain and task completion  
+- **Task 1**: The Labyrinth of Shadows (Grid Solving) 
+- **Task 2**: The Ramp of Trials (Creation, Ascending, and Descending Ramp)
+- **Task 3**: The Oracle of Runes (Barcode Reading)
+- **Task 4**: The Circular Fortress (Wall Following and Ball Collection)
+- **Task 5**: The Wall of Whispers & Pendulum of Doom 
+- **Task 6**: The Line of Destiny & The Ring of Triumph (Shooting Task)
 
+[![PDF](https://img.shields.io/badge/PDF-Download-red?style=flat&logo=adobe&logoColor=white)]([path/to/your-file.pdf](https://github.com/user-attachments/files/24347659/Robot_Design_Task_2025_251226_191908.pdf)) **Project Documentation**
 
 
 ## 🏟️ Arena
+<img width="792" height="816" alt="image" src="https://github.com/user-attachments/assets/0292d8f1-3821-4599-a5c1-895216d76922" />
 
 
 ## 🏆 Achievements
-- 🥇 **First Place – EN2533 Robot Design and Competition**
-- Successfully completed **7 out of 8 tasks** within the time limit  
+- Successfully completed **6 out of 8 tasks** within the time limit  
 
 
 ## 💡 Testing Issues & Innovative Fixes
