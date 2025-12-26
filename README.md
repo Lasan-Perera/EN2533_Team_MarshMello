@@ -65,7 +65,7 @@ However, the initial grip was not strong enough to hold boxes securely. To impro
 
 To overcome this, we implemented a control solution: after gripping the ball and raising the arm, the gripper briefly opens and closes again. This allows the ball to move closer to the color sensor. This approach worked successfully.
 
-<img width="397" height="496" alt="image" src="https://github.com/user-attachments/assets/5aa93e9d-a1d1-4257-a950-2cb823abd457" />
+<img width="250" height="360" alt="image" src="https://github.com/user-attachments/assets/5aa93e9d-a1d1-4257-a950-2cb823abd457" />
 
 ### Balls Storing Mechanism
 The container had to be positioned at a suitable height so gravity could feed the balls into the ball-sending mechanism. The main challenge was designing a container within limited space that could store four balls while ensuring they would not block each other during release.
