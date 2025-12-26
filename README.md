@@ -87,12 +87,6 @@ The robot operates on a **Grid Navigation System** driven by a finite state mach
 ## 🏟️ Arena
 <img width="792" height="816" alt="image" src="https://github.com/user-attachments/assets/0292d8f1-3821-4599-a5c1-895216d76922" />
 
-
-## 🏆 Achievements
-- Successfully completed **5 out of 6 tasks** within the time limit  
-
-<img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/961e3777-fb7b-4ed8-8dc9-ac8582a0b2fc" />
-
 ## 👥 Team Members
 | Name | Index Number |
 |------|-------------|
@@ -101,4 +95,11 @@ The robot operates on a **Grid Navigation System** driven by a finite state mach
 | Kavija Karunarathna | 230322U |
 | Hiruna Kariyawasam | 230318M |
 | Rusiru Anupama | 230536E |
+
+## 🏆 Achievements
+- Successfully completed **5 out of 6 tasks** within the time limit  
+
+<img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/961e3777-fb7b-4ed8-8dc9-ac8582a0b2fc" />
+
+|
 
