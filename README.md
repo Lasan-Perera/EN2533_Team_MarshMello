@@ -5,6 +5,7 @@
 Our robot was developed to complete multiple challenges announced two months before the competition. These challenges included line following, maze solving, box handling, ramp climbing, dashed-line navigation, barcode detection, ball pickup, wall following, arrow-based navigation, and ball shooting. The project required significant hardware and software development, and the final robot was able to autonomously navigate the arena and successfully complete the assigned tasks.
 
 ## 🤖 Robot
+<img width="800" height="800" alt="file_00000000da307206b8a596931e5336b1" src="https://github.com/user-attachments/assets/2f6169fc-d8d2-44bb-bb8a-78f215cee401" />
 
 ## 🔧 Robot Hardware Specifications
 - **Max Dimensions**: 200mm × 190mm  
