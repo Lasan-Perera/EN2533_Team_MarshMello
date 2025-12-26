@@ -1,2 +1,108 @@
-# EN2533_Team_MarshMello
-The robot is a multi-task robotic system capable of performing several operations autonomously. It uses sensors, microcontroller-based control, and optimized algorithms to handle navigation, sensing, and task execution accurately. The robot is designed with a strong focus on reliability, efficiency, and real-world engineering performance.
+# Team MarshMello 
+## Module: EN2533 Robot Design and Competition
+
+## 📖 Project Overview
+Our robot was developed to complete multiple challenges announced two months before the competition. These challenges included line following, maze solving, box handling, ramp climbing, dashed-line navigation, barcode detection, ball pickup, wall following, arrow-based navigation, and ball shooting. The project required significant hardware and software development, and the final robot was able to autonomously navigate the arena and successfully complete the assigned tasks.
+
+## 🤖 Robot
+
+## 🔧 Robot Hardware Specifications
+- **Max Dimensions**: 250mm × 250mm  
+- **Power Supply**: 4 18650 Li-ion Battries
+- **Components**:
+  - Arduino Mega mini Development board x1
+  - Raykha S8 – TCRT5000 based 8-channel reflective sensor array x1
+  - Nema 17 Stepper Motors x2
+  - DRV8825 Stepper Driver x2
+  - LM2596 DC-DC Buck Converter x2
+  - XL4015 DC-DC Buck Converter x1
+  - MG90 metal gear servo motors x3
+  - MG995 Tower Pro servo motor x1
+  - SHARP GP2Y0A51SK0F Infrared IR Sensor x5
+  - TCS34725 RGB Colour Recognition Sensor x1
+  - Obstacle Avoidance Sensor IR Infrared Module x3
+  - DC Motor 380 Motor x2
+  - Rotary Encoder Module with Push Button
+  - 0.96″ OLED display (debugging)
+
+## 💻 Robot Software Specifications
+- **Programming Language**: C++
+- **IDE**: Arduino IDE
+- **Libraries**:
+  - Arduino.h
+  - Servo.h
+  - Adafruit_TCS34725.h
+  - MultiStepper.h
+  - AccelStepper.h
+  - Wire.h
+  - Adafruit_GFX
+  - Adafruit_SSD1306
+- **3D Modelling**: AutoDesk Fusion
+- **Schemetic Design**: Altium Designer
+
+![VS Code](https://img.shields.io/badge/VS_Code-0078d4?logo=visualstudiocode&logoColor=white)
+![PlatformIO](https://img.shields.io/badge/PlatformIO-000000?logo=platformio&logoColor=white)
+![Altium Designer](https://img.shields.io/badge/Altium_Designer-FF0000?style=flat&logo=altium&logoColor=white)
+![Autodesk Fusion 360](https://img.shields.io/badge/Autodesk_Fusion_360-1795FC?style=flat&logo=autodesk&logoColor=white)
+
+
+## ⚙️ Mechanisms
+
+### Gripper Mechanism
+The gripper mechanism is designed for efficient box manipulation. It uses two servo motors—one for vertical lifting and one for gripping. The lifting action prevents box sliding and collisions on uneven terrain.  
+
+A color sensor detects line color, while a Time-of-Flight sensor tower (three sensors) measures box height, distance to boxes, and portal status. This sensor integration ensures accurate handling and navigation.
+
+
+
+### Coin Dropper Mechanism
+The coin dropper uses a servo-driven rotating holder that releases a coin when aligned with a hole in the base.  
+
+In the final task, the robot detects a black cross on uneven terrain and drops the coin precisely at the marked location, ensuring reliable placement.
+
+
+## 🚩 Competition Tasks
+- **Task 1**: Line navigation and binary code identification  
+- **Task 2**: Maze navigation and box manipulation  
+- **Task 3**: Color-based line following  
+- **Task 4**: Dashed line navigation  
+- **Task 5**: Portal navigation with timed opening  
+- **Task 6**: Box arrangement  
+- **Task 7**: Hidden task and chamber insertion  
+- **Task 8**: Coin drop on uneven terrain and task completion  
+
+
+
+## 🏟️ Arena
+
+
+## 🏆 Achievements
+- 🥇 **First Place – EN2533 Robot Design and Competition**
+- Successfully completed **7 out of 8 tasks** within the time limit  
+
+
+## 💡 Testing Issues & Innovative Fixes
+
+### Reverse Line Following Challenge
+**Problem:**  
+Encoder-based reverse navigation was inaccurate due to motor mismatch. The forward-mounted IR array also caused delayed feedback during reverse motion.
+
+**Solution:**  
+Two IR arrays were used—one at the front and one at the rear—allowing accurate and immediate feedback in both directions while reducing software complexity.
+
+### IR Sensor Isolation Challenge
+**Problem:**  
+IR sensor interference occurred when detecting black lines on white backgrounds due to reflected IR rays.
+
+**Solution:**  
+A custom SolidWorks-designed cover was used to isolate each IR receiver, ensuring accurate perpendicular reflection detection.
+
+## 👥 Group Members
+| Name | Index Number | Email |
+|------|-------------|-------|
+| Balasooriya B A P I | 220054N | balasooriyabapi.22@uom.lk |
+| Liyanage D L B B | 220362G | banuka2002liyanage@gmail.com |
+| Pathirana P D R O | 220448C | oshadha1619@gmail.com |
+| Fernando A R D | 220161N | rusirufernando513@gmail.com |
+| Dineshara M C | 220128V | chandupadineshara@gmail.com |
+
