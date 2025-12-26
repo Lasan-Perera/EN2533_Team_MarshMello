@@ -41,7 +41,9 @@ Our robot was developed to complete multiple challenges announced two months bef
 - **Schemetic Design**: Altium Designer
 
 ![VS Code](https://img.shields.io/badge/VS_Code-0078d4?logo=visualstudiocode&logoColor=white)
-![PlatformIO](https://img.shields.io/badge/PlatformIO-000000?logo=platformio&logoColor=white)
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat&logo=arduino&logoColor=white)
+![Arduino CLI](https://img.shields.io/badge/Arduino_CLI-00979D?style=flat&logo=arduino&logoColor=white)  
+![PlatformIO](https://img.shields.io/badge/PlatformIO-1E2D3B?style=flat&logo=platformio&logoColor=white)
 ![Altium Designer](https://img.shields.io/badge/Altium_Designer-FF0000?style=flat&logo=altium&logoColor=white)
 ![Autodesk Fusion 360](https://img.shields.io/badge/Autodesk_Fusion_360-1795FC?style=flat&logo=autodesk&logoColor=white)
 
