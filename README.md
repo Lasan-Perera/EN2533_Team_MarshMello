@@ -72,7 +72,7 @@ The container had to be positioned at a suitable height so gravity could feed th
 
 Later, I discovered that the original container design was approximately 5 mm lower than the required height. To fix this, I added a 5 mm thick 3D-printed spacer block in the middle of the structure.
 
-<img width="557" height="398" alt="image" src="https://github.com/user-attachments/assets/efb444ee-13a7-4946-92c8-4741c1c92155" />
+<img width="300" height="220" alt="image" src="https://github.com/user-attachments/assets/efb444ee-13a7-4946-92c8-4741c1c92155" />
 
 ### Balls Shooting Mechanism
 
