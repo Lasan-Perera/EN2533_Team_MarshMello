@@ -50,8 +50,9 @@ Our robot was developed to complete multiple challenges announced two months bef
 
 ## ⚙️ Mechanisms and Algorithms
 ### Custom Motor Brackets, Wheel Rims, SHARP IR Brackets
-<img width="477" height="493" alt="image" src="https://github.com/user-attachments/assets/89c14042-1c5d-4e6c-a0d6-823893c8174a" />
-<img width="202" height="169" alt="image" src="https://github.com/user-attachments/assets/22e6be7a-fbba-4adf-b9f5-4d7d07c4fee7" />
+<img src="https://github.com/user-attachments/assets/89c14042-1c5d-4e6c-a0d6-823893c8174a" width="300" height="300" />
+<img src="https://github.com/user-attachments/assets/22e6be7a-fbba-4adf-b9f5-4d7d07c4fee7" width="300" height="300" />
+
 
 
 
