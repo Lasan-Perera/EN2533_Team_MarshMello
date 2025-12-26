@@ -53,19 +53,34 @@ Our robot was developed to complete multiple challenges announced two months bef
 <img src="https://github.com/user-attachments/assets/89c14042-1c5d-4e6c-a0d6-823893c8174a" width="300" height="300" />
 <img src="https://github.com/user-attachments/assets/22e6be7a-fbba-4adf-b9f5-4d7d07c4fee7" width="300" height="300" />
 
-
-
-
 ### Balls and Box Pickup Mechanism
+
+From the beginning, we decided to use an arm mechanism to pick up balls and boxes from the side. This required precise control of the robot. We planned to store the collected balls in a container located at the top of the robot. The container had to be positioned at an appropriate height so gravity could be used to feed the balls into the ball-sending mechanism, which was a major design challenge.
+
+To address this, we used an L-shaped arm. A high-torque servo was used for the main arm movement, while a smaller servo controlled the gripper. This combination significantly simplified the mechanism.
+
+The gripper had to handle both balls (4 cm diameter) and boxes (5 cm wide). To achieve this, I designed a special gripper with an internal cutout. When gripping a ball, the arms move closer than usual, allowing the ball to travel upward through the rail-like cut. Since the color sensor was placed at the top, this design allowed us to take color readings effectively.
+
+However, the initial grip was not strong enough to hold boxes securely. To improve grip, we added hot glue inside the gripper and covered it with a rubber balloon. While this solved the box-gripping issue, it prevented the ball from moving upward.
+
+To overcome this, we implemented a control solution: after gripping the ball and raising the arm, the gripper briefly opens and closes again. This allows the ball to move closer to the color sensor. This approach worked successfully.
+
 <img width="397" height="496" alt="image" src="https://github.com/user-attachments/assets/5aa93e9d-a1d1-4257-a950-2cb823abd457" />
 
-
 ### Balls Storing Mechanism
-<img width="557" height="398" alt="image" src="https://github.com/user-attachments/assets/efb444ee-13a7-4946-92c8-4741c1c92155" />
+The container had to be positioned at a suitable height so gravity could feed the balls into the ball-sending mechanism. The main challenge was designing a container within limited space that could store four balls while ensuring they would not block each other during release.
 
+Later, I discovered that the original container design was approximately 5 mm lower than the required height. To fix this, I added a 5 mm thick 3D-printed spacer block in the middle of the structure.
+
+<img width="557" height="398" alt="image" src="https://github.com/user-attachments/assets/efb444ee-13a7-4946-92c8-4741c1c92155" />
 
 ### Balls Shooting Mechanism
 
+The ball sender needed to launch the balls through a given hoop. We used DC motors rotating at high speed, with the ball placed between them. To achieve sufficient grip, we used two toy truck wheels attached to the motors.
+
+Finding the correct distance between the motors required several design iterations. Another major issue was ensuring that balls were sent one at a time. If two balls entered the mechanism simultaneously, the second ball would not travel the required distance. To solve this, I designed a blocking mechanism that prevents the next ball from entering while one ball is being launched.
+
+Initially, we attempted to control the motors using relays, but this failed due to the high startup current. When the motors started, the relay would switch off, causing an endless on-off loop without the motors running properly. To resolve this issue, we replaced the relays with a motor driver, which worked reliably.
 
 ### Grid Solving Algorithm
 The robot operates on a **Grid Navigation System** driven by a finite state machine.
