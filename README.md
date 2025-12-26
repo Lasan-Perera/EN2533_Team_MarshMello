@@ -49,11 +49,18 @@ Our robot was developed to complete multiple challenges announced two months bef
 
 
 ## ⚙️ Mechanisms and Algorithms
+### Custom Motor Brackets, Wheel Rims, SHARP IR Brackets
+<img width="477" height="493" alt="image" src="https://github.com/user-attachments/assets/89c14042-1c5d-4e6c-a0d6-823893c8174a" />
+<img width="202" height="169" alt="image" src="https://github.com/user-attachments/assets/22e6be7a-fbba-4adf-b9f5-4d7d07c4fee7" />
+
+
 
 ### Balls and Box Pickup Mechanism
+<img width="397" height="496" alt="image" src="https://github.com/user-attachments/assets/5aa93e9d-a1d1-4257-a950-2cb823abd457" />
 
 
 ### Balls Storing Mechanism
+<img width="557" height="398" alt="image" src="https://github.com/user-attachments/assets/efb444ee-13a7-4946-92c8-4741c1c92155" />
 
 
 ### Balls Shooting Mechanism
