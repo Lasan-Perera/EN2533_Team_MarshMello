@@ -48,16 +48,24 @@ Our robot was developed to complete multiple challenges announced two months bef
 ![Autodesk Fusion 360](https://img.shields.io/badge/Autodesk_Fusion_360-1795FC?style=flat&logo=autodesk&logoColor=white)
 
 
-## ⚙️ Mechanisms
+## ⚙️ Mechanisms and Algorithms
 
-### Gripper Mechanism
+### Balls and Box Pickup Mechanism
 The gripper mechanism is designed for efficient box manipulation. It uses two servo motors—one for vertical lifting and one for gripping. The lifting action prevents box sliding and collisions on uneven terrain.  
 
 A color sensor detects line color, while a Time-of-Flight sensor tower (three sensors) measures box height, distance to boxes, and portal status. This sensor integration ensures accurate handling and navigation.
 
+### Balls Storing Mechanism
+The gripper mechanism is designed for efficient box manipulation. It uses two servo motors—one for vertical lifting and one for gripping. The lifting action prevents box sliding and collisions on uneven terrain.  
 
+A color sensor detects line color, while a Time-of-Flight sensor tower (three sensors) measures box height, distance to boxes, and portal status. This sensor integration ensures accurate handling and navigation.
 
-### Coin Dropper Mechanism
+### Balls Shooting Mechanism
+The coin dropper uses a servo-driven rotating holder that releases a coin when aligned with a hole in the base.  
+
+In the final task, the robot detects a black cross on uneven terrain and drops the coin precisely at the marked location, ensuring reliable placement.
+
+### Grid Solving Algorithm
 The coin dropper uses a servo-driven rotating holder that releases a coin when aligned with a hole in the base.  
 
 In the final task, the robot detects a black cross on uneven terrain and drops the coin precisely at the marked location, ensuring reliable placement.
