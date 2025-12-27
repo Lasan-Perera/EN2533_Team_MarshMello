@@ -1,4 +1,4 @@
-<img width="1024" height="1024" alt="file_00000000e0a47206bf88b3c999087ba9" src="https://github.com/user-attachments/assets/a2b63eb3-a8ae-4cf0-9821-bb9004d6c4c5" /># Team MarshMello 
+# Team MarshMello 
 ## Module: EN2533 Robot Design and Competition
 
 ## 📖 Project Overview
