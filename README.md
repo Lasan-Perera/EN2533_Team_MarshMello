@@ -7,7 +7,7 @@ Our robot was developed to complete multiple challenges announced two months bef
 ## 🤖 Robot
 <img width="1024" height="1024" alt="file_00000000e0a47206bf88b3c999087ba9" src="https://github.com/user-attachments/assets/6ef73ace-1771-4c14-90bb-00a94ee45bad" />
 
-<img width="600" height="950" alt="image" src="https://github.com/user-attachments/assets/8d63b2e1-b8c7-41eb-878f-5138b4ed579c" /><img width="600" height="950" alt="image" src="https://github.com/user-attachments/assets/828d05ba-3404-4282-a9e9-4dedc077217e" />
+<img width="500" height="950" alt="image" src="https://github.com/user-attachments/assets/8d63b2e1-b8c7-41eb-878f-5138b4ed579c" /><img width="500" height="950" alt="image" src="https://github.com/user-attachments/assets/828d05ba-3404-4282-a9e9-4dedc077217e" />
 
 ## 🎥 Robot Task Demonstration
 [![Robot Tasks Video](https://img.youtube.com/vi/oBLyfxPuTzA/0.jpg)](https://youtu.be/oBLyfxPuTzA)
