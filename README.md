@@ -1,11 +1,13 @@
-# Team MarshMello 
+<img width="1024" height="1024" alt="file_00000000e0a47206bf88b3c999087ba9" src="https://github.com/user-attachments/assets/a2b63eb3-a8ae-4cf0-9821-bb9004d6c4c5" /># Team MarshMello 
 ## Module: EN2533 Robot Design and Competition
 
 ## 📖 Project Overview
 Our robot was developed to complete multiple challenges announced two months before the competition. These challenges included line following, maze solving, box handling, ramp climbing, dashed-line navigation, barcode detection, ball pickup, wall following, arrow-based navigation, and ball shooting. The project required significant hardware and software development, and the final robot was able to autonomously navigate the arena and successfully complete the assigned tasks.
 
 ## 🤖 Robot
-<img width="800" height="800" alt="file_00000000da307206b8a596931e5336b1" src="https://github.com/user-attachments/assets/2f6169fc-d8d2-44bb-bb8a-78f215cee401" />
+<img width="1024" height="1024" alt="file_00000000e0a47206bf88b3c999087ba9" src="https://github.com/user-attachments/assets/6ef73ace-1771-4c14-90bb-00a94ee45bad" />
+
+
 
 ## 🔧 Robot Hardware Specifications
 - **Max Dimensions**: 200mm × 190mm  
@@ -24,7 +26,7 @@ Our robot was developed to complete multiple challenges announced two months bef
   - Obstacle Avoidance Sensor IR Infrared Module x3
   - DC Motor 380 Motor x2
   - Rotary Encoder Module with Push Button
-  - 0.96″ OLED display (debugging)
+  - 0.96″ OLED display
 
 ## 💻 Robot Software Specifications
 - **Programming Language**: C++
@@ -135,5 +137,4 @@ The robot operates on a **Grid Navigation System** driven by a finite state mach
 
 <img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/961e3777-fb7b-4ed8-8dc9-ac8582a0b2fc" />
 
-|
 
