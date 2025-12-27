@@ -7,7 +7,8 @@ Our robot was developed to complete multiple challenges announced two months bef
 ## 🤖 Robot
 <img width="800" height="800" alt="file_00000000e0a47206bf88b3c999087ba9" src="https://github.com/user-attachments/assets/6ef73ace-1771-4c14-90bb-00a94ee45bad" />
 
-![1234](https://github.com/user-attachments/assets/96b304fc-ee7b-4132-9d09-90b8f2f92a5b)![1245](https://github.com/user-attachments/assets/3cd53703-65ec-457c-8381-c0820e6c2849)
+<img src="https://github.com/user-attachments/assets/96b304fc-ee7b-4132-9d09-90b8f2f92a5b" width="300"><img src="https://github.com/user-attachments/assets/3cd53703-65ec-457c-8381-c0820e6c2849" width="300">
+
 
 
 
