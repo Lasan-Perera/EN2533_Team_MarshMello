@@ -137,6 +137,6 @@ The robot operates on a **Grid Navigation System** driven by a finite state mach
 ## 🏆 Achievements
 - Successfully completed **5 out of 6 tasks** within the time limit  
 
-<img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/961e3777-fb7b-4ed8-8dc9-ac8582a0b2fc" />
+<img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/29107cdb-1653-4874-9d0c-c658d6c35874" />
 
 
