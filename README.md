@@ -5,7 +5,7 @@
 Our robot was developed to complete multiple challenges announced two months before the competition. These challenges included line following, maze solving, box handling, ramp climbing, dashed-line navigation, barcode detection, ball pickup, wall following, arrow-based navigation, and ball shooting. The project required significant hardware and software development, and the final robot was able to autonomously navigate the arena and successfully complete the assigned tasks.
 
 ## 🤖 Robot
-<img width="1024" height="1024" alt="file_00000000e0a47206bf88b3c999087ba9" src="https://github.com/user-attachments/assets/6ef73ace-1771-4c14-90bb-00a94ee45bad" />
+<img width="1000" height="1000" alt="file_00000000e0a47206bf88b3c999087ba9" src="https://github.com/user-attachments/assets/6ef73ace-1771-4c14-90bb-00a94ee45bad" />
 
 <img width="500" height="950" alt="image" src="https://github.com/user-attachments/assets/8d63b2e1-b8c7-41eb-878f-5138b4ed579c" /><img width="500" height="950" alt="image" src="https://github.com/user-attachments/assets/828d05ba-3404-4282-a9e9-4dedc077217e" />
 
