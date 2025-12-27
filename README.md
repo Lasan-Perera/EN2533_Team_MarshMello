@@ -136,8 +136,6 @@ The robot operates on a **Grid Navigation System** driven by a finite state mach
 | Hiruna Kariyawasam | 230318M |
 | Rusiru Anupama | 230536E |
 
-## 🏆 Achievements
-- Successfully completed **5 out of 6 tasks** within the time limit  
 
 <img width="1280" height="960" alt="image" src="https://github.com/user-attachments/assets/29107cdb-1653-4874-9d0c-c658d6c35874" />
 
