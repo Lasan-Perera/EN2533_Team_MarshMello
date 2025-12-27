@@ -100,7 +100,7 @@ Finding the correct distance between the motors required several design iteratio
 To solve this, I designed a blocking mechanism that prevents the next ball from entering while one ball is being launched.
 
 Initially, we attempted to control the motors using relays, but this failed due to the high startup current. When the motors started, the relay would switch off, causing an endless on-off loop without proper motor operation. To resolve this issue, we replaced the relays with a motor driver, which worked reliably.
-<img width="600" height="800" alt="image" src="https://github.com/user-attachments/assets/5eb7c2d3-228e-4c5a-a3fd-b6aa66a16847" />
+<img width="300" height="450" alt="image" src="https://github.com/user-attachments/assets/5eb7c2d3-228e-4c5a-a3fd-b6aa66a16847" />
 
 ---
 
