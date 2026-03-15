@@ -35,6 +35,7 @@ Our robot was developed to complete multiple challenges announced two months bef
   - Rotary Encoder Module with Push Button
   - 0.96″ OLED display
 
+
 ## 💻 Robot Software Specifications
 - **Programming Language**: C++
 - **IDE**: Arduino IDE
@@ -49,6 +50,7 @@ Our robot was developed to complete multiple challenges announced two months bef
   - Adafruit_SSD1306
 - **3D Modelling**: AutoDesk Fusion
 - **Schemetic Design**: Altium Designer
+
 
 ![VS Code](https://img.shields.io/badge/VS_Code-0078d4?logo=visualstudiocode&logoColor=white)
 ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat&logo=arduino&logoColor=white)
